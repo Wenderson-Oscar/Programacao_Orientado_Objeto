@@ -10,8 +10,10 @@ Um método construtor é chamado sempre que um objeto da classe
 
 # self
 
-O método _ _init_ _ recebe um parâmetro chamado self . Por enquanto,
-entenda self como o objeto em si.
+Os métodos de classe têm apenas uma diferença específica das funções comuns - eles devem ter um primeiro nome extra que deve ser adicionado ao início da lista de parâmetros, mas você não atribui um valor para esse parâmetro ao chamar o método, o Python fornecerá isto. Essa variável em particular se refere ao próprio objeto e, por convenção, recebe o nome de self.
+
+Embora você possa fornecer qualquer nome para esse parâmetro, é altamente recomendável usar o nome self - qualquer outro nome é definitivamente desaprovado.
+O método _ _init_ _ recebe um parâmetro chamado self , Entenda self como o objeto em si.s
 
 <hr>
 

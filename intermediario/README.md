@@ -1,19 +1,18 @@
-# Relacionamento 
+<center><h1> PILARES DE POO <h1><center>
 
-Associação entre objetos
+# Abstração
 
-Atributos de um objetos que se refere a outro atributo definido na classe.
+Consiste em esconder os detalhes de algo, no caso, os detalhes desnecessários. As vezes chamamos métodos que não precisamos saber todos so processo que ele faz. Passamos um parâmetro e ele nos retorna algo. Isso deixa o código limpo e mais compreensível.
 
+# Encapsulamento 
 
-# Associação
-Ela descreve um vínculo que ocorre entre classes - associação binária -, mas é possível até mesmo que uma classe esteja vinculada a si própria, - associação unária-, ou que uma associação seja compartilhada por mais de uma classe, o que conhecemos por associação ternária ou N-ária, tipo de associação mais rara e também mais complexa. Representamos as associações por meio de retas que ligam as classes envolvidas, essas setas podem ou não possuir setas nas extremidades indicando a navegabilidade da associação, ou seja, o sentido em que as informações são passadas entre as classes - não obrigatório-. Ou seja, se não há setas, significa que essas informações podem ser transmitidas entre todas as classes de uma associação.
+Serve para controlar o acesso aos atributos e métodos de uma classe. è uma foma eficiente de proteger os dados manipulados dento da classe. Usa-se o __ para 'privatizar' (Python).
+Para chamar conseguirmos acessar o atributos devemos usar os métodos Getters e Setters.
 
-Exemplo: A forma mais comum de implementar associação é ter um objeto como atributo de outro, neste exemplo, abaixo temos uma associação entre a Classe Livros e a classe Editoras. No código cria-se um objeto do tipo Livro e outro do tipo Editora. Um dos atributos do Livro é a Editora. Veja a figura:
+# Herança 
 
-# Agregação
-É um tipo especial de associação onde tenta-se demonstrar que as informações de um objeto (chamado objeto-todo) precisam ser complementados pelas informações contidas em um ou mais objetos de outra classe (chamados objetos-parte); conhecemos como todo/parte.
+Criamos classes a partir de outras classes. herdando todos os atributos e métodos dela essas novas classes são chamadas de subclasses, ou classes derivadas. Assim evitamos a redundância de código (O código pode ser redundante por inúmeras razões que vão desde variáveis não utilizadas, passando por alterações não concluídas e até mesmo código desenvolvido e abandonado. O código redundante tem uma série de consequências, incluindo código fonte inchado, redução de capacidade de manutenção e confiabilidade reduzida ). Classe Homem herda todos as caracteristicas de Pessoa + as caracteristicas dele mesmo.
 
-O objeto-pai poderá usar as informações do objeto agregado. Segundo Dall'Oglio (2007) "Nesta relação, um objeto poderá agregar uma ou mais instâncias de um outro objeto. Para agregar muitas instâncias, a forma mais simples é utilizando arrays. Criamos um array como atributo da classe, sendo que o papel deste array é armazenar inúmeras instâncias de uma outra class". (DALL'OGLIO, 2007, p. 118)
+# Polimorfismo
 
-# Composição
-Pode-se dizer que composição é uma variação da agregação. Uma composição tenta representar também uma relação todo - parte. No entanto, na composição o objeto-pai (todo) é responsável por criar e destruir suas partes. Em uma composição um mesmo objeto-parte não pode se associar a mais de um objeto-pai.
+Onde duas ou mais classes derivadas de uma mesma superclasse (conceito de herança ) podem invocar métodos que têm a mesma identificação mas comportamento distintos. A Classe Homem herda o método falar da classe pessoa. porem a forma de falar é diferente.
