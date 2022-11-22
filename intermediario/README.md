@@ -2,7 +2,7 @@
 
 # Abstração
 
-Consiste em esconder os detalhes de algo, no caso, os detalhes desnecessários. As vezes chamamos métodos que não precisamos saber todos so processo que ele faz. Passamos um parâmetro e ele nos retorna algo. Isso deixa o código limpo e mais compreensível.
+Consiste em Extrair todos os dados **importante** de um objeto.
 
 # Encapsulamento 
 

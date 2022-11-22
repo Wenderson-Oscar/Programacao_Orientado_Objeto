@@ -1,7 +1,7 @@
 # Encapsulamento 
 
-Serve para controlar o acesso aos atributos e métodos de uma classe. è uma foma eficiente de proteger os dados manipulados dento da classe. Usa-se o __ para 
-'privatizar' (Python).
+Serve para controlar o acesso aos atributos e métodos de uma classe. è uma forma eficiente de proteger os dados manipulados dento da classe. Usa-se o __ para 
+'privatizar' (Python) e _ para proteção.
 os atributos privados não são realmente privados, mas "desconfigurados", pode ler e atribuir um valor ao atributo "privado" diretamente
 
 Para chamar, conseguirmos acessar o atributos devemos usar os métodos Getters e Setters.
