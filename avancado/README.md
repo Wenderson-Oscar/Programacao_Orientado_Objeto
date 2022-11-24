@@ -41,7 +41,7 @@ Em geral, esse modificador **é usado pra métodos que criam e retornam instânc
 
 Geralmente utilizados quando você tem uma função que executa lógica que interage com o objeto/classe, aí você pode criar um staticmethod com este intuito.
 
-Basicamente o staticmethod é uma função de uma classe que interage de alguma forma com o objeto, ela poderia estar solta no código, mas por fim de organização e manutenção colocamos ela na classe.
+Basicamente o **staticmethod** é uma função de uma classe que interage de alguma forma com o objeto, ela poderia estar solta no código, mas por fim de organização e manutenção colocamos ela na classe.
 
 <hr>
 
@@ -55,12 +55,12 @@ Em Python usarmos a classe abstrata como uma interface formal.
 
 Uma interface não é considerada uma Classe e sim uma Entidade.
 
-·         Não possui implementação, apenas assinatura, ou seja, apenas a definição dos seus métodos sem o corpo.
+·Não possui implementação, apenas assinatura, ou seja, apenas a definição dos seus métodos sem o corpo.
 
-·         Todos os métodos são abstratos.
+·Todos os métodos são abstratos.
 
-·         Seus métodos são implicitamente Públicos e Abstratos.
+·Seus métodos são implicitamente Públicos e Abstratos.
 
-·         Não há como fazer uma instância de uma Interface e nem como criar um Construtor.
+·Não há como fazer uma instância de uma Interface e nem como criar um Construtor.
 
-·         Funcionam como um tipo de "contrato", onde são especificados os atributos, métodos e funções que as classes que implementem essa interface são obrigadas a implementar.
+·Funcionam como um tipo de "contrato", onde são especificados os atributos, métodos e funções que as classes que implementem essa interface são obrigadas a implementar.

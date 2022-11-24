@@ -11,3 +11,9 @@ A classe que concede as características a uma outra classe.
 
 ### Classe Derivada: 
 A classe que herda as características da classe base.
+
+<hr>
+
+# Herança Múltipla
+
+A herança múltipla ocorre quando uma subclasse herda características de duas ou mais superclasses. No caso, uma subclasse pode herdar atributos e métodos de diversas superclasses. No entanto, não são todas as linguagens de programação orientadas a objeto que fornecem esse tipo de recurso. 
