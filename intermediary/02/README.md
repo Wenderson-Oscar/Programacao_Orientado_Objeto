@@ -17,3 +17,8 @@ A classe que herda as características da classe base.
 # Herança Múltipla
 
 A herança múltipla ocorre quando uma subclasse herda características de duas ou mais superclasses. No caso, uma subclasse pode herdar atributos e métodos de diversas superclasses. No entanto, não são todas as linguagens de programação orientadas a objeto que fornecem esse tipo de recurso. 
+
+
+# Polimorfismo
+
+O polimorfismo é caracterizado quando duas ou mais classes distintas têm métodos de mesmo nome, de forma que uma função possa utilizar um objeto de qualquer uma das classes polimórficas, sem necessidade de tratar de forma diferenciada conforme a classe do objeto.

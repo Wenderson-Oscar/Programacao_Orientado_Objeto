@@ -13,6 +13,7 @@ Atributos de um objetos que se refere a outro atributo definido na classe.
 
 # Composição
 Pode-se dizer que composição é uma **variação da agregação**. Na composição o objeto-pai (todo) é responsável por **criar e destruir suas partes**. 
+Apresenta um vínculo mais forte entre os objetos-todo e os objetos-parte, procurando demonstrar que os objetos-parte têm de estar associados a um único objeto-todo. Em uma composição, os objetos-parte não podem ser destruídos por um objeto diferente do objeto-todo ao qual estão relacionados.
 
 # Diferença entre Agregação e Composição
 **Composição** é quando o objeto "filho" não faz sentido fora do objeto "pai". **Agregação** é quando o objeto filho existe sem o objeto pai, mas agrega informações a ele. 

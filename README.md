@@ -8,6 +8,8 @@ Menu
    * [Tecnologias utilizadas](#🛠-tecnologias)
    * [Guia do Projeto](#guia-do-projeto)
       * [Teoria POO](#o-que-é-programação-orientada-a-objetos)
+      * [4 Pilares](intermediary/README.md)
+      
       
 <!--te-->
 
@@ -15,7 +17,7 @@ Menu
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- 🔗 [Python 3.8](https://python.org/)
+-  Python 3.8
 - 🔗 [Visual Code](https://code.visualstudio.com/)
 - 🔗 [Extension Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
 
@@ -23,6 +25,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 É Recomendado ler **todos os README primeiro** de cada pasta nesse projeto.
 Seguimos com a Teoria que esta nesse Readme, assim aprendemos um pouco o que é POO(nessa parte ainda não abordamos os 4 Pilares), ao termos passado pela Teoria iremos para a pratica, que é no arquivo "basic".
+### Guia:
+   * **basic** → **intermediary** --> *01* --> *02* → **advanced**
+
+<hr>
 
 <h1 align = 'center'>TEORIA</h1>
 
