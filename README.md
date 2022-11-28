@@ -1,6 +1,6 @@
 <h1 align ='center'> Programação Orientado a Objeto</h1>
 
-### O intuito da criação desse projeto foi estudar e praticar POO usando python, afim de agregar um conhecimento solido. obs: O seguinte tutorial estar de acordo com a minha perspectiva de estudo em relação ao tema.
+### O intuito da criação desse projeto foi estudar e praticar POO usando python. obs: O seguinte tutorial estar de acordo com a minha perspectiva de estudo em relação ao tema.
 
 Menu
 =================
