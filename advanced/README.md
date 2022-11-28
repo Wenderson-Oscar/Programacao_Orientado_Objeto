@@ -3,23 +3,27 @@
 É um tipo de classe especial que **não pode ser instanciada**, apenas herdada. Sendo assim, uma classe abstrata não pode ter um objeto criado a partir de sua instanciação. Essas classes são muito **importantes quando não queremos criar um objeto a partir de uma classe “geral”**, apenas de suas “subclasses”.
 
 
-    Uma classe abstrata cria uma interface comum para um conjunto de subclasses, reduzindo código duplicado e obrigando as subclasses a implementarem todos seus métodos abstratos.
+Uma classe abstrata cria uma interface comum para um conjunto de subclasses, reduzindo código duplicado e obrigando as subclasses a implementarem todos seus métodos abstratos.
 
-Como funcionam as Class Abstract Base:
+<hr>
 
-    Por padrão, o Python não fornece classes abstratas. O Python vem com um módulo que fornece a base para definir as Class Abstract Base (ABC) e o nome do módulo é ABC.
+### Como funcionam as Class Abstract Base:
 
-    O ABC funciona decorando métodos da classe base como abstratos e, em seguida, registrando classes concretas como implementações da base abstrata. Um método se torna abstrato quando decorado com a palavra-chave @abstractmethod.
+Por padrão, o Python não fornece classes abstratas. O Python vem com um módulo que fornece a base para definir as Class Abstract Base (ABC) e o nome do módulo é ABC.
 
-   As classes abstratas devem conter pelo menos um método abstrato, que não tem corpo.
+O ABC funciona decorando métodos da classe base como abstratos e, em seguida, registrando classes concretas como implementações da base abstrata. Um método se torna abstrato quando decorado com a palavra-chave @abstractmethod.
 
-·         É um tipo especial de classe que não há como criar instâncias dela.
+<hr>
 
-·         É usada apenas para ser herdada, funciona como uma super classe.
+As classes abstratas devem conter pelo menos um método abstrato, que não tem corpo.
 
-·         Uma grande vantagem é que força a hierarquia para todas as sub-classes.
+· É um tipo especial de classe que não há como criar instâncias dela.
 
-·         É um tipo de contrato que faz com que as sub-classes contemplem as mesmas hierarquias e/ou padrões. 
+. É usada apenas para ser herdada, funciona como uma super classe.
+
+· Uma grande vantagem é que força a hierarquia para todas as sub-classes.
+
+· É um tipo de contrato que faz com que as sub-classes contemplem as mesmas hierarquias e/ou padrões. 
 
 # StaticMethod
 <hr>
@@ -49,9 +53,10 @@ Basicamente o **staticmethod** é uma função de uma classe que interage de alg
 
 Em Python usarmos a classe abstrata como uma interface formal.
 
-    Uma interface formal funcionará como uma espécie de contrato, obrigando suas subclasses a implementar seus métodos.
-    A interface informal será bastante parecida com uma classe Python comum. Ela poderá definir métodos que posteriormente serão sobrescritos, mas não há obrigatoriedade para tal.
+Uma interface formal funcionará como uma espécie de contrato, obrigando suas subclasses a implementar seus métodos.
+A interface informal será bastante parecida com uma classe Python comum. Ela poderá definir métodos que posteriormente serão sobrescritos, mas não há obrigatoriedade para tal.
 
+<hr>
 
 Uma interface não é considerada uma Classe e sim uma Entidade.
 
