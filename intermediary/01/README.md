@@ -1,7 +1,7 @@
 # Encapsulamento 
 
 Serve para controlar o acesso aos atributos e métodos de uma classe. è uma forma eficiente de proteger os dados manipulados dento da classe. Usa-se o __ para 
-'privatizar' (Python) e _ para proteção.
+'privatizar' (Python, e não pode ser herdado) e _ para proteção(protect, pode ser herdado).
 os atributos privados não são realmente privados, mas "desconfigurados", pode ler e atribuir um valor ao atributo "privado" diretamente.
 
 O conceito de polimorfismo está associado à herança. O polimorfismo trabalha com a redeclaração de métodos previamente herdados por uma classe. 
